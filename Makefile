@@ -19,6 +19,8 @@ link:
 	@echo "==> Linking dotfiles..."
 	@# zshディレクトリの中身をホームディレクトリに展開
 	stow --verbose --target=$$HOME --restow zsh
+	stow --verbose --target=$$HOME --restow helix
+	stow --verbose --target=$$HOME --restow ghostty
 
 # 3. インストール: Brewfile からパッケージをインストール
 brew:
