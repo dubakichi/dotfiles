@@ -19,6 +19,7 @@ link:
 	@echo "==> Linking dotfiles..."
 	@# zshディレクトリの中身をホームディレクトリに展開
 	stow --verbose --target=$$HOME --restow zsh
+	mkdir -p $$HOME/.config
 	stow --verbose --target=$$HOME --restow helix
 	stow --verbose --target=$$HOME --restow ghostty
 
