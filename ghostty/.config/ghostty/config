@@ -1,1 +1,18 @@
+#
+# 外観
+
+# カラーテーマ
 theme = Catppuccin Mocha
+# フォントサイズ
+font-size = 14
+# 行間設定
+adjust-cell-height = 10%
+
+# 画面の余白設定
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+
+# クリップボードのread/write許容
+clipboard-read = allow
+clipboard-write = allow
