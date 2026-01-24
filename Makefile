@@ -22,6 +22,8 @@ link:
 	mkdir -p $$HOME/.config
 	stow --verbose --target=$$HOME --restow helix
 	stow --verbose --target=$$HOME --restow ghostty
+	stow --verbose --target=$$HOME --restow bat
+
 
 # 3. インストール: Brewfile からパッケージをインストール
 brew:
