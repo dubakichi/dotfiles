@@ -24,6 +24,7 @@ bindkey '^g' ghq-fzf
 alias ls='eza --icons --git'
 alias ll='ls -l'
 alias la='ls -la'
+alias lg='lazygit'
 alias grep='rg'
 
 # Added by Antigravity
