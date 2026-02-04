@@ -29,3 +29,6 @@ alias grep='rg'
 
 # Added by Antigravity
 export PATH="/Users/manabu/.antigravity/antigravity/bin:$PATH"
+
+# yaziから利用するエディタ
+export EDITOR="hx"
