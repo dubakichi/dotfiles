@@ -23,6 +23,7 @@ link:
 	stow --verbose --target=$$HOME --restow helix
 	stow --verbose --target=$$HOME --restow ghostty
 	stow --verbose --target=$$HOME --restow bat
+	stow --verbose --target=$$HOME --restow yazi
 
 
 # 3. インストール: Brewfile からパッケージをインストール
