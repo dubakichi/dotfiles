@@ -26,6 +26,7 @@ alias ll='ls -l'
 alias la='ls -la'
 alias lg='lazygit'
 alias grep='rg'
+alias y='yazi'
 
 # Added by Antigravity
 export PATH="/Users/manabu/.antigravity/antigravity/bin:$PATH"
